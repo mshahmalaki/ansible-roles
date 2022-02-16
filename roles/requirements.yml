@@ -1,0 +1,8 @@
+# from GitHub, overriding the name and specifying a specific tag
+- name: docker
+  scm: git
+  src: https://github.com/mshahmalaki/ansible-role-docker.git
+
+- name: pip
+  scm: git
+  src: https://github.com/mshahmalaki/ansible-role-pip.git

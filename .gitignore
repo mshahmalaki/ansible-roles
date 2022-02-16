@@ -1,0 +1,7 @@
+.idea
+.vscode
+.vaultpassword*
+venv/
+.DS_Store
+roles/*
+!roles/requirements.yml

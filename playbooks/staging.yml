@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - docker
+    - pip
+  tasks:
+  - name: Set Timezone
+    timezone: 
+      name: Asia/Tehran

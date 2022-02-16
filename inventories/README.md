@@ -1,0 +1,1 @@
+This inventory file can be created by [MAASTA](https://github.com/ssbostan/maasta) package

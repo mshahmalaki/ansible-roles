@@ -1,0 +1,12 @@
+- hosts: all
+  become: true
+  tasks:
+  - name: Increase limit of max_user_watches
+    lineinfile: 
+      path: /etc/sysctl.conf
+      line: 'fs.inotify.max_user_watches=524288'
+    notify: Reload sysctl
+  
+  handlers:
+  - name: Reload sysctl
+    command: 'sysctl -p'

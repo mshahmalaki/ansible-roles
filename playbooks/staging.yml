@@ -5,6 +5,7 @@
     - resolv
     - docker
     - pip
+    - insecure-registry
   tasks:
   - name: Set Timezone
     timezone: 

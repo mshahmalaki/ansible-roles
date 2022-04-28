@@ -6,3 +6,7 @@
 - name: pip
   scm: git
   src: https://github.com/mshahmalaki/ansible-role-pip.git
+  
+- name: resolv
+  scm: git
+  src: https://github.com/mshahmalaki/ansible-role-resolv.git

@@ -3,6 +3,10 @@
   scm: git
   src: https://github.com/mshahmalaki/ansible-role-docker.git
 
+- name: insecure-registry
+  scm: git
+  src: https://github.com/mshahmalaki/ansible-insecure-registry.git
+
 - name: pip
   scm: git
   src: https://github.com/mshahmalaki/ansible-role-pip.git
